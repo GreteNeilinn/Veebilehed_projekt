@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+* {
+    width: 100%;
+    padding: 0;
+    font-family: 'Andada Pro', serif;
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-color: #0c7b6b;
+}
+
+#navigatsioon {
+    margin-top: 30px;
+}
+
+#navigatsioon ul {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-content: space-betweem;
+    width: 100%;
+    list-style: none;
+}
+
+#navLink {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+#here {
+    font-size: 19px;
+    text-decoration: none;
+    color: #f68696;
+}
+
+li a {
+    transition: all 0.3s linear;
+}
+
+li a:hover {
+    text-shadow: 2px 2px 6px #242424;
+}
+
+#footerSection {
+    margin-top: 20px;
+    padding: 30px 0px 30px 0px;
+    background-color: #56bf45;
+    padding-top: 20px;
+    display: flex;
+    align-content: space-between;
+    height: 110px;
+}
+
+#footerColumn {
+    text-decoration: none;
+    text-align: center;
+    align-content: space-betweem;
+    width: 100%;
+    list-style: none;
+    display: block;
+}
+
+#pageContainer {
+    padding: 0px;
+    max-width: 100%;
+}
+
+.shopButton {
+    background-color: #56bf45;
+}
+
+#mainContainer {
+    max-width: 100%;
+    padding-top: 150px;
+}
+
+#mainContainer h1 {
+    font-size: 36px;
+}
+
+#mainContainer p {
+    font-size: 14px;
+}
+
+img {
+    border-radius: 7px;
+}
+
+#mainContainer button {
+    padding: 3px;
+    box-shadow: 3px 3px 10px -4px #242424;
+    transition: all 0.3s linear;
+    border: none;
+    width: 120px;
+    border-radius: 10px;
+}
+
+#mainContainer button:hover {
+    box-shadow: 6px 6px 11px -5px #242424;
+}
+
+@media only screen and (max-width: 570px) {
+    #mainContainer {
+        padding-top: 50px;
+    }
+}

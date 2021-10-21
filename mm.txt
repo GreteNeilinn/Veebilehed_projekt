@@ -1,0 +1,40 @@
+<header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+.navbar-expand-sm {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media only screen and (max-width: 950px) {
+    .navbar-nav .nav-item {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
